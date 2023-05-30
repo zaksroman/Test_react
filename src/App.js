@@ -22,7 +22,7 @@ const createPost = (newPost) => {
 const removePost = (post) => {
         setPosts(posts.filter(p => p.id !== post.id))
 }
-
+//dsfnvnsodfnbosndfbo
 const sortPosts = (sort) => {
         setSelectedSort(sort);
         setPosts([...posts].sort((a,b) => a[sort].localeCompare(b[sort])))
